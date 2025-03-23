@@ -6,6 +6,7 @@ import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import { Routes, Route} from "react-router-dom";
 
+
 function App() {
   return (
     <>
