@@ -3,6 +3,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
 }
 
 .Nav-menu{
@@ -31,14 +40,14 @@
         height: 100vh;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        top: -100%;
-        left: 0;
+        top: 0;
+        left: -100%;
         z-index: -3;
         transition: 0.3s;
     }
 
     .Nav-menu.active{
-        top: 0;
+        left: 0;
     }
 
     .Nav-menu li{
