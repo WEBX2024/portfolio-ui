@@ -27,6 +27,20 @@
     align-items: center;
 }
 
-.hero-head, .hero-text{
-    color:#fff;
+.hero-img h1{
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .hero-img h1{
+        font-size: 2rem;
+        color: #fff;
+    }
 }
