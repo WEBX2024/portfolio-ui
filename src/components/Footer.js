@@ -1,7 +1,14 @@
-import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaHome,
+  FaInstagram,
+  FaLinkedin,
+  FaMailBulk,
+  FaPhone,
+} from "react-icons/fa";
 import "./Footer.css";
 import React from "react";
-import { FaMessage } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -11,8 +18,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Rayan, Bardhaman, 713101</p>
-              <p>India.</p>
+              <h4>Rayan, Burdwan, India</h4>
             </div>
           </div>
           <div className="phone">
@@ -41,13 +47,25 @@ const Footer = () => {
             Information Technology(B.Tech) from Techno International Newtown,
             Kolkata. I have a good design sense which push me to go as a
             frontend developer and after that I have started learning Backend
-            and database system to become a full stack developer.{" "}
+            and database system to become a full stack developer.
           </p>
           <div className="social">
-            <FaFacebook size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <FaInstagram size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaFacebook
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaInstagram
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaLinkedin
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaGithub
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
           </div>
         </div>
       </div>
