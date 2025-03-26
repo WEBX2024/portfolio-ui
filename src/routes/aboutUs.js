@@ -8,7 +8,7 @@ const aboutUs = () => {
   return (
     <div>
       <Navbar/>
-      <Heroimg2/>
+      <Heroimg2 heading="About." text="This is me"/>
       <Footer/>
     </div>
   )
