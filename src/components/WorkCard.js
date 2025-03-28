@@ -5,10 +5,7 @@ import { NavLink } from "react-router-dom"
 
 const WorkCard = () => {
   return (
-    <div className="work-container">
-        <h1 className="project-heading">Projects</h1>
-        <div className="project-container">
-            <div className="project-card">
+    <div className="project-card">
                 <img src={IntroImg} alt="imgage"/>
                 <h2 className="project-title">Project title</h2>
                 <div className="pro-details">
@@ -19,8 +16,6 @@ const WorkCard = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
   )
 }
 

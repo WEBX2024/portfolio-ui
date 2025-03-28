@@ -1,0 +1,83 @@
+.opening-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000; /* Match portfolio theme */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fade-in {
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+.stretch-in {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    opacity: 0;
+    transform: scaleX(0);
+    animation: stretchIn 1.5s ease-in forwards 1s;
+}
+
+/* Style for the button (same as your existing portfolio buttons) */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 1.5s ease-in forwards 2s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes stretchIn {
+    from {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+/* Slide up animation for the button */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
