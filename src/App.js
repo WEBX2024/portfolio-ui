@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
-// import Opening from "./components/Opening.js"
-import Home from "./routes/Home.js";
+import Home from "./routes/Home";
 import AboutUs from "./routes/AboutUs.js";
 import Contact from "./routes/Contact.js";
 import Project from "./routes/Project.js";
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<Opening/>}/> */}
         <Route path="/" element={<Home />} />
         <Route path="/Project" element={<Project />} />
         <Route path="/Contact" element={<Contact />} />
